@@ -1,0 +1,7 @@
+{
+    "watch": ["src/backend", ".env"],
+    "ignore": ["src/frontend"],
+    "ext": "ts,mjs,js,json",
+    "exec": "node ./dist/backend/index.js",
+    "legacyWatch": true
+}
